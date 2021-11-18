@@ -22,3 +22,9 @@ http://localhost:8100/currency-conversion/from/USD/to/INR/quantity/10
     "environment": "8000 instance-id"
 }
 ```
+
+#Diagram
+![img.png](img.png)
+
+#Currency Exchange Microservice
+URL: https://github.com/hugotb88/currency-exchange-service.git 

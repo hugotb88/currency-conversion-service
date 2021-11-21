@@ -32,3 +32,16 @@ http://localhost:8100/currency-conversion/from/USD/to/INR/quantity/10
 URL: https://github.com/hugotb88/currency-exchange-service.git
 
 #Feign Client Implemented to call Currency Exchange Service
+
+# How to Register a microservice in Eureka
+- in the POM of the microservice project add the dependency for Eureka client
+```
+    <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+    </dependency>
+```
+Additional, just to be sure, you can add the following to the properties file
+``eureka.client.serviceUrl.defaultZone = http://localhost:8761/eureka``
+
+![img_1.png](img_1.png)

@@ -123,3 +123,10 @@ Then...
 		</dependency>
         
 ```
+
+
+# Distributed Tracing (Zipkin Server)
+- ¿How you can trace a request tha travels across a lot of Microservices?
+  - Using Distributed Tracing 
+
+![img_4.png](img_4.png)
